@@ -7,7 +7,7 @@ public class CaixaEletronico {
             saldo = saldo - valorSolicitado;
             System.out.println(saldo);
         } else {
-            System.out.println("o valor "+valorSolicitado+" é maior que o saldo.");
+            System.out.println("o valor " + valorSolicitado + " é maior que o saldo.");
         }
     }
 }
