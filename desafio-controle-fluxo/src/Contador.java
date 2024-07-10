@@ -5,7 +5,8 @@ public class Contador {
         Scanner scanner = new Scanner(System.in);
         int primeiroValor = scanner.nextInt();
         int segundoValor = scanner.nextInt();
-
+        scanner.close();
+        
         try {
             contar(primeiroValor, segundoValor);
         } catch (ParametrosInvalidosException e) {

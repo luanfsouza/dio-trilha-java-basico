@@ -22,9 +22,11 @@ public class AboutMe {
         int idade = Integer.valueOf(args[2]);
         double altura = Double.valueOf(args[3]);
 
-        System.out.printf("Olá me chamo %s %s, eu tenho %d anos, e a minha altura é %.2f cm. \n", nome, sobrenome, idade,
+        System.out.printf("Olá me chamo %s %s, eu tenho %d anos, e a minha altura é %.2f cm. \n", nome, sobrenome,
+                idade,
                 altura);
-        System.out.printf("Olá me chamo %s %s, eu tenho %d anos, e a minha altura é %.2f cm. \n", nomePessoa2, sobrenomePessoa2, idadePessoa2,
+        System.out.printf("Olá me chamo %s %s, eu tenho %d anos, e a minha altura é %.2f cm. \n", nomePessoa2,
+                sobrenomePessoa2, idadePessoa2,
                 alturaPessoa2);
     }
 }
