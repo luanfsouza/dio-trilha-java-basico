@@ -5,6 +5,7 @@ public class Aluno {
     private String nome;
     private int idade;
     private String sexo;
+    private int matricula;
 
     public String getNome() {
         return this.nome;
@@ -28,6 +29,14 @@ public class Aluno {
 
     public void setSexo(String sexo) {
         this.sexo = sexo;
+    }
+
+    public int getMatricula() {
+        return this.matricula;
+    }
+
+    public void setMatricula(int matricula) {
+        this.matricula = matricula;
     }
     
 }
