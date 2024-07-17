@@ -1,8 +1,7 @@
 package emcapsulamentoHerancaAbstracaoPolimorfismo.exemplo03.desafioDioBanco;
 
-import java.util.List;
-
-public abstract class Conta extends Banco implements IConta {
+public abstract class Conta implements IConta {
+    
     protected int agencia;
     protected int numero;
     protected double saldo;
@@ -16,9 +15,7 @@ public abstract class Conta extends Banco implements IConta {
         this.numero = SEQUENCIAL++;
         this.cliente = cliente;    
     }
-    public void adicionarContaBanco(List<Conta> conta){
-        super.setContas(conta);
-    }
+    
     @Override
     public void depositar(double valor) {
         this.saldo += valor;
