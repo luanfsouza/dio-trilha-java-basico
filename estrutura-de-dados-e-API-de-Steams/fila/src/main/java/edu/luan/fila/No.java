@@ -18,7 +18,7 @@ public class No<T> {
         this.object = object;
     }
 
-    public No getRefNo() {
+    public No<T> getRefNo() {
         return this.refNo;
     }
 

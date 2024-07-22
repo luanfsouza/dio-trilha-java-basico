@@ -12,8 +12,8 @@ public class fila<T> {
         ultimaRefNo = novoObject;
     }
     public T dequeue(){
-        No primeiroNo = ultimaRefNo;
-        No noAuxiliar = ultimaRefNo;
+        No<T> primeiroNo = ultimaRefNo;
+        No<T> noAuxiliar = ultimaRefNo;
         if(!isEmpty()){
             while (true) {
                 if(primeiroNo.getRefNo() != null){
@@ -33,7 +33,7 @@ public class fila<T> {
     }
     public T first(){
         if(!isEmpty()){
-            No primeiroNo = ultimaRefNo;
+            No<T> primeiroNo = ultimaRefNo;
             while (true) {
                 if(primeiroNo.getRefNo() != null){
                     primeiroNo = primeiroNo.getRefNo();
