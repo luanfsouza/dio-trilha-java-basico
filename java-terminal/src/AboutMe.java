@@ -28,5 +28,6 @@ public class AboutMe {
         System.out.printf("Olá me chamo %s %s, eu tenho %d anos, e a minha altura é %.2f cm. \n", nomePessoa2,
                 sobrenomePessoa2, idadePessoa2,
                 alturaPessoa2);
+        scanner.close();
     }
 }
