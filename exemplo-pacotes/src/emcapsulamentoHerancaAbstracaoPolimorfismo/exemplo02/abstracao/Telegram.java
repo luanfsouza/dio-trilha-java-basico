@@ -4,6 +4,7 @@ public class Telegram extends AppMensageiro{
 
     @Override
     public void enviarMensagem() {
+        
         System.out.println("Telegram esta enviando a mensagem...");
         
     }

@@ -4,6 +4,7 @@ public class MSNMenssenger extends AppMensageiro {
 
     @Override
     public void enviarMensagem() {
+        validarConectadoInternet();
         System.out.println("MSN esta enviando a mensagem...");
         
     }
@@ -11,6 +12,7 @@ public class MSNMenssenger extends AppMensageiro {
     @Override
     public void receberMensagem() {
         System.out.println("MSN esta enviando a mensagem...");
+        salvarHistoricoMensagem();
         
     }
     

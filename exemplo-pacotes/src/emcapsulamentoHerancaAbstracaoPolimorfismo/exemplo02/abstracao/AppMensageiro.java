@@ -5,11 +5,11 @@ public abstract class AppMensageiro {
 
     public abstract void receberMensagem();
 
-    private void validarConectadoInternet() {
+    protected void validarConectadoInternet() {
         System.out.println("Validando a conexão com a internet");
     }
 
-    private void salvarHistoricoMensagem() {
+    protected void salvarHistoricoMensagem() {
         System.out.println("Salvando o historico de mensagem");
     }
 }
