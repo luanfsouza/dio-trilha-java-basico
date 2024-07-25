@@ -30,7 +30,7 @@ public class fila<T> {
     }
     public boolean isEmpty(){
         return ultimaRefNo == null ? true : false;
-    }
+    } 
     public T first(){
         if(!isEmpty()){
             No<T> primeiroNo = ultimaRefNo;
