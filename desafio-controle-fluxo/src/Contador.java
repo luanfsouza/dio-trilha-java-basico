@@ -5,7 +5,7 @@ public class Contador {
         Scanner scanner = new Scanner(System.in);
         int primeiroValor = scanner.nextInt();
         int segundoValor = scanner.nextInt();
-        scanner.close();
+        scanner.close(); 
         
         try {
             contar(primeiroValor, segundoValor);
