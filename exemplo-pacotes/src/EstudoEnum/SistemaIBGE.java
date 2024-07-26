@@ -7,6 +7,6 @@ public class SistemaIBGE {
         }
         
         EstadoBrasileiro eb = EstadoBrasileiro.MARANHAO;
-        System.out.println(eb.getNome());
+        System.out.println(eb.getNome()); 
     }
 }
