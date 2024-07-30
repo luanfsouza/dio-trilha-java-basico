@@ -15,6 +15,6 @@ public class Main {
         System.out.println(minhaLista.getNo(2));
         System.out.println(minhaLista.remove(2));
         System.out.println(minhaLista.get(1));
-        System.out.println(minhaLista);
+        System.out.println(minhaLista); 
     }
 }
