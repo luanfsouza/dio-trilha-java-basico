@@ -2,7 +2,7 @@ package edu.luan.listas.lista_encadeada;
 
 public class Main {
     public static void main(String[] args) {
-        ListaEncadeada minhaLista = new ListaEncadeada<>();
+        ListaEncadeada<String> minhaLista = new ListaEncadeada<>();
 
         System.out.println(minhaLista.size());
 
