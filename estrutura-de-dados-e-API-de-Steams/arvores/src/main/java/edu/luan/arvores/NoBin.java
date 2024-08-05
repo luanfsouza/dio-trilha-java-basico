@@ -5,12 +5,11 @@ public class NoBin<T extends Comparable<T>> {
     private NoBin<T> noEsq;
     private NoBin<T> noDir;
 
-    public NoBin(T conteudo){
+    public NoBin(T conteudo) {
         this.conteudo = conteudo;
         this.noEsq = null;
         this.noEsq = null;
     }
-
 
     public T getConteudo() {
         return this.conteudo;
@@ -40,5 +39,5 @@ public class NoBin<T extends Comparable<T>> {
     public String toString() {
         return "NoBin [conteudo=" + conteudo + "]";
     }
-    
+
 }
