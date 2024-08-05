@@ -1,6 +1,6 @@
 package edu.luan.arvores;
 
-public class NoBin<T> {
+public class NoBin<T extends Comparable<T>> {
     private T conteudo;
     private NoBin<T> noEsq;
     private NoBin<T> noDir;
@@ -36,5 +36,9 @@ public class NoBin<T> {
         this.noDir = noDir;
     }
 
-
+    @Override
+    public String toString() {
+        return "NoBin [conteudo=" + conteudo + "]";
+    }
+    
 }
