@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "sistema-smart-tv/src",
+        "java-terminal/src",
+        "exemplo-pacotes/src",
+        "estrutura-de-dados-e-API-de-Steams/atribuicao-referencia/src/main/java/edu/luan/java_atribuicao_referencia",
+        ""
+    ]
+}
