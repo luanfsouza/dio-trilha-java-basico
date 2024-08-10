@@ -8,6 +8,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class ExemploList {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         List<Double> notas1 = new ArrayList<>();
         List<Double> notas2 = new ArrayList<>(Arrays.asList(1.2, 3.0, 10.0, 25.5));
