@@ -33,15 +33,15 @@ public class ExemploSet {
         while (iterator2.hasNext()) {
             Double next = iterator2.next();
             if (next < 7)
-                iterator2.remove();
+                iterator2.remove(); 
         }
         System.out.println(notas);
 
         Set<Double> notas2 = new LinkedHashSet<>(Arrays.asList(3.4, 63.1, 9.0, 15.6, 1.2, 6.5, 9.0, 1.2));
-        System.out.println(notas2); 
+        System.out.println(notas2);
 
         Set<Double> notas3 = new TreeSet<>(notas2);
         System.out.println(notas3);
- 
+
     }
 }
