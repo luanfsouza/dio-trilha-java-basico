@@ -42,6 +42,6 @@ public class ExemploSet {
 
         Set<Double> notas3 = new TreeSet<>(notas2);
         System.out.println(notas3);
-
+ 
     }
 }
