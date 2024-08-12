@@ -23,7 +23,7 @@ public class ExemploOrdenacaoSet {
     }
 }
 
-class Serie implements Comparable<Serie>{
+class Serie implements Comparable<Serie> {
     private String nome;
     private String genero;
     private Integer tempoEpisodio;
@@ -36,11 +36,13 @@ class Serie implements Comparable<Serie>{
 
     @Override
     public int compareTo(Serie o) {
-        int SerieTempoEpisodio =  Integer.compare(this.getTempoEpisodio(), o.getTempoEpisodio());
-        if(SerieTempoEpisodio != 0) return SerieTempoEpisodio;
+        int SerieTempoEpisodio = Integer.compare(this.getTempoEpisodio(), o.getTempoEpisodio());
+        if (SerieTempoEpisodio != 0)
+            return SerieTempoEpisodio;
 
         int SerieNome = this.getNome().compareTo(o.getNome());
-        if(SerieNome != 0) return SerieNome;
+        if (SerieNome != 0)
+            return SerieNome;
 
         return this.getGenero().compareTo(o.getGenero());
     }
