@@ -1,0 +1,44 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'E:/programas/dio-trilha-java-basico/gerenciamento-de-dependencias-maven/maven-javadoc-test/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'E:/programas/dio-trilha-java-basico/gerenciamento-de-dependencias-maven/maven-javadoc-test/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'maven-javadoc-test 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'maven-javadoc-test 1.0-SNAPSHOT API'
+one.digitalinnovation
+'E:/programas/dio-trilha-java-basico/gerenciamento-de-dependencias-maven/maven-javadoc-test/src/main/java/one/digitalinnovation/App.java'
+'E:/programas/dio-trilha-java-basico/gerenciamento-de-dependencias-maven/maven-javadoc-test/src/main/java/one/digitalinnovation/StatusUser.java'
+'E:/programas/dio-trilha-java-basico/gerenciamento-de-dependencias-maven/maven-javadoc-test/src/main/java/one/digitalinnovation/User.java'
+E:\programas\dio-trilha-java-basico\gerenciamento-de-dependencias-maven\maven-javadoc-test\src\main\java = 1723842216294
+E:\programas\dio-trilha-java-basico\gerenciamento-de-dependencias-maven\maven-javadoc-test\target\site\apidocs\allclasses-index.html = 1723844524042
+E:\programas\dio-trilha-java-basico\gerenciamento-de-dependencias-maven\maven-javadoc-test\target\site\apidocs\allpackages-index.html = 1723844524045
+E:\programas\dio-trilha-java-basico\gerenciamento-de-dependencias-maven\maven-javadoc-test\target\site\apidocs\element-list = 1723844523995
+E:\programas\dio-trilha-java-basico\gerenciamento-de-dependencias-maven\maven-javadoc-test\target\site\apidocs\help-doc.html = 1723844524070
+E:\programas\dio-trilha-java-basico\gerenciamento-de-dependencias-maven\maven-javadoc-test\target\site\apidocs\index-all.html = 1723844524062
+E:\programas\dio-trilha-java-basico\gerenciamento-de-dependencias-maven\maven-javadoc-test\target\site\apidocs\index.html = 1723844524065
+E:\programas\dio-trilha-java-basico\gerenciamento-de-dependencias-maven\maven-javadoc-test\target\site\apidocs\jquery-ui.overrides.css = 1723844524084
+E:\programas\dio-trilha-java-basico\gerenciamento-de-dependencias-maven\maven-javadoc-test\target\site\apidocs\member-search-index.js = 1723844524050
+E:\programas\dio-trilha-java-basico\gerenciamento-de-dependencias-maven\maven-javadoc-test\target\site\apidocs\module-search-index.js = 1723844524047
+E:\programas\dio-trilha-java-basico\gerenciamento-de-dependencias-maven\maven-javadoc-test\target\site\apidocs\overview-tree.html = 1723844524032
+E:\programas\dio-trilha-java-basico\gerenciamento-de-dependencias-maven\maven-javadoc-test\target\site\apidocs\package-search-index.js = 1723844524048
+E:\programas\dio-trilha-java-basico\gerenciamento-de-dependencias-maven\maven-javadoc-test\target\site\apidocs\script.js = 1723844524074
+E:\programas\dio-trilha-java-basico\gerenciamento-de-dependencias-maven\maven-javadoc-test\target\site\apidocs\search.js = 1723844524076
+E:\programas\dio-trilha-java-basico\gerenciamento-de-dependencias-maven\maven-javadoc-test\target\site\apidocs\stylesheet.css = 1723844524071
+E:\programas\dio-trilha-java-basico\gerenciamento-de-dependencias-maven\maven-javadoc-test\target\site\apidocs\tag-search-index.js = 1723844524051
+E:\programas\dio-trilha-java-basico\gerenciamento-de-dependencias-maven\maven-javadoc-test\target\site\apidocs\type-search-index.js = 1723844524049
