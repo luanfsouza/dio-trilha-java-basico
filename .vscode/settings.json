@@ -4,6 +4,10 @@
         "java-terminal/src",
         "exemplo-pacotes/src",
         "estrutura-de-dados-e-API-de-Steams/atribuicao-referencia/src/main/java/edu/luan/java_atribuicao_referencia",
+        "dio-trilha-java-basico/gerenciamento-de-dependencias-e-build/item",
         ""
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable",
+    "java.configuration.updateBuildConfiguration": "automatic"
 }
