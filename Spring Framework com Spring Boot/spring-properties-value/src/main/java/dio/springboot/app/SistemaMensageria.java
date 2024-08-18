@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class SistemaMensageria implements CommandLineRunner {
-    @Value("${name}")
+    @Value("${name:Lucas}")
     private String nome;
     @Value("${email}}")
     private String email;
