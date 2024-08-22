@@ -25,6 +25,8 @@ public class ContaTerminal {
 
         System.out.printf("...processando, aguarde...\n");
 
-        System.out.printf("Parabens, conta criada com sucesso, aqui estão os dados da conta \n |... Usuario: %s ...| \n |... Numero: %d...| \n |... Agencia: %s ...| \n |... Saldo: %.2f ...| \n", nomeCliente, numero, agencia, saldo);
+        System.out.printf(
+                "Parabens, conta criada com sucesso, aqui estão os dados da conta \n |... Usuario: %s ...| \n |... Numero: %d...| \n |... Agencia: %s ...| \n |... Saldo: %.2f ...| \n",
+                nomeCliente, numero, agencia, saldo);
     }
 }
